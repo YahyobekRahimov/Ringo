@@ -1,24 +1,85 @@
-/* Fonts */
-
-
-
-:root {
-  
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
- 
-}
-
 .container {
   width: 100%;
-  max-width: 1440px;
-  margin-left: auto;
+  max-width: 1600px;
+  padding-right: 200px;
+  padding-left: 200px;
   margin-right: auto;
+  margin-left: auto;
 }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2em; /* 67.2px */
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #282B22;
+  text-align: center;
+  font-size: 2.875rem;
+  font-weight: 600;
+  line-height: 1.25em; /* 57.5px */
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #282B22;
+  text-align: center;
+  font-size: #AE7B3C;
+  font-weight: 600;
+  line-height: 1.3em; /* 46.8px */
+}
+
+h5 {
+  color: #3D4A39;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.circle-container {
+  width: 18px;
+  height: 18px;
+  border: 1.7px solid #AE7B3C;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  background-color: #AE7B3C;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=general.css.map */
