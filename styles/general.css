@@ -7,8 +7,8 @@
 .container {
   width: 100%;
   max-width: 1600px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 12.5vw;
+  padding-left: 12.5vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -63,23 +63,6 @@ h5 {
   color: #3D4A39;
   font-size: 1.5rem;
   font-weight: 500;
-}
-
-.circle-container {
-  width: 18px;
-  height: 18px;
-  border: 1.7px solid #AE7B3C;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle {
-  width: 6px;
-  height: 6px;
-  background-color: #AE7B3C;
-  border-radius: 50%;
 }
 
 /*# sourceMappingURL=general.css.map */

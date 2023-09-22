@@ -43,8 +43,8 @@ $fw-regular: 400;
 .container {
     width: 100%;
     max-width: 1600px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 12.5vw;
+    padding-left: 12.5vw;
     margin-right: auto;
     margin-left: auto;
 }
@@ -103,20 +103,4 @@ h5 {
     color: $clr-text-800;
     font-size: $fs-text-500;
     font-weight: $fw-medium;
-}
-
-.circle-container {
-    width: 18px;
-    height: 18px;
-    border: 1.7px solid $clr-bg-800;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.circle {
-    width: 6px;
-    height: 6px;
-    background-color: $clr-bg-800;
-    border-radius: 50%;
 }
